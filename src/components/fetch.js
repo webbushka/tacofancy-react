@@ -10,7 +10,7 @@ const Loading = styled.div`
   margin-top: 3em;
 `;
 
-const base = 'http://taco-randomizer.herokuapp.com';
+const base = 'https://taco-randomizer.herokuapp.com';
 
 export default class Fetch extends Component {
   static propTypes = {
