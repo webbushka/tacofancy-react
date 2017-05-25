@@ -1,0 +1,7 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "filenames/match-exported": [2, "kebab"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
+}
