@@ -34,7 +34,7 @@ export default class App extends Component {
   render() {
     const { drawer } = this.state;
     return (
-      <Router>
+      <Router basename="/tacofancy-react">
         <div>
           <StyledAppBar style={{ position: 'fixed' }} title="Tacos" onLeftIconButtonTouchTap={this.openDrawer} />
           <Drawer open={drawer} docked={false} onRequestChange={this.closeDrawer}>
